@@ -1,5 +1,5 @@
-import Home from './Home';
-import About from './About';
+import Home from '../primitives/Home';
+import About from '../primitives/About';
 
 const Main = () => {
   return (

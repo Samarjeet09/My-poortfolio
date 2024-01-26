@@ -1,7 +1,7 @@
 import { useState, Fragment } from "react";
 import { Link } from "react-scroll";
 import { Menu, Transition } from "@headlessui/react";
-import Sidebar from "./Sidebar";
+import Sidebar from "../primitives/Sidebar";
 import toast from "react-hot-toast";
 
 import {
@@ -17,7 +17,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { FcDocument } from "react-icons/fc";
 
 import Brackets from "../assets/images/brackets-dark.png";
-import social from "./constants";
+import social from "../primitives/constants";
 // import "./flag-icons.min.css";
 
 const Navbar = () => {
@@ -74,8 +74,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="works" smooth={true} duration={600}>
-              Works
+            <Link onClick={handleClick} to="projects" smooth={true} duration={600}>
+              Projects
             </Link>
           </li>
           <li>
@@ -133,8 +133,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="cursor-pointer hover:text-white duration-200">
-            <Link to="works" smooth={true} duration={600}>
-              Works
+            <Link to="projectss" smooth={true} duration={600}>
+              Projects
             </Link>
           </li>
           <li className="cursor-pointer duration-200 bg-theme-blue-50 hover:bg-theme-blue-100 active:bg-theme-blue-100 hover:text-white active:text-white md:py-[4px] 2xl:py-1.5 px-2.5 rounded">

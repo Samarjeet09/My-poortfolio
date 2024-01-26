@@ -14,7 +14,7 @@ const content = {
     description:
       "I'm currently a PreFinal Year student at Thapar Institute of Engineering and Technology",
     buttons: {
-      work: "View Work",
+      work: "Projects",
       hire: "Contact",
     },
   },
