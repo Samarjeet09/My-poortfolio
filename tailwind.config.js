@@ -10,7 +10,7 @@ module.exports = {
         "theme-white": "rgb(234, 234, 234)",
         "theme-blue-50": "rgba(96,138,177,0.7)",
         "theme-blue-100": "rgba(96,138,177,0.8)",
-        "theme-black": "rgb(32, 32, 35)",
+        "theme-black": "rgb(36, 33, 38)",
       },
       keyframes: {
         travelOrbit: {

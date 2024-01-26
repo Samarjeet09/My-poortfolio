@@ -128,7 +128,7 @@ function start() {
   function update() {
     if (!paused) {
       context.clearRect(0, 0, width, height);
-      context.fillStyle = '#282a3a';
+      context.fillStyle = '#0e0c12';
       context.fillRect(0, 0, width, height);
       context.fill();
 
