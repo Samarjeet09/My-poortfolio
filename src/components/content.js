@@ -21,7 +21,7 @@ const content = {
   aboutSection: {
     sectionName: "About Me",
     description:
-      "As a passionate developer equipped with an impressive array of skills, I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. Beyond the lines of code, I am a problem solver at heart. Challenges are not roadblocks but opportunities to innovate and find elegant solutions.",
+      "As a dedicated developer, I specialize in designing and maintaining responsive websites, ensuring a seamless user experience. My skill set encompasses crafting dynamic interfaces using clean and optimized code, leveraging cutting-edge tools and techniques. Proficient in Python and well-versed in AI/ML, I am passionate about incorporating innovative solutions. Beyond coding, I thrive as a natural problem solver, viewing challenges as opportunities for creative innovation. My resume reflects a journey of leadership in project management and the successful implementation of diverse projects. Let's collaborate to bring technology and creativity to new heights.",
   },
 };
 
