@@ -22,8 +22,8 @@ const ReactSolarSystem = () => {
       >
         {/* Solar Orbit */}
         <div className="w-full h-full border-[1px] border-[rgba(0,0,0,0.2)] rounded-[50%] box-border absolute inset-0 m-auto transform perspective-9 transition-all duration-[3s]">
-          {/* Solar Planet - Python */}
-          <div className="w-[25px] h-[25px] rounded-[50%] absolute inset-x-0 top-[-14px] bottom-0 box-border flex items-center justify-center my-0 mx-auto bg-[rgba(203,101,67,0.1)] border-[2px] border-[#FF8C00] text-[#FF8C00] text-[0.9rem] leading-[26px] animate-travelOrbit10 origin-[50%_713%] transition-all duration-[1s]">
+          {/* Solar Planet - Django */}
+          <div className="w-[25px] h-[25px] rounded-[50%] absolute inset-x-0 top-[-14px] bottom-0 box-border flex items-center justify-center my-0 mx-auto bg-[rgba(203,101,67,0.1)] border-[2px] border-[#a4c639] text-[#a4c639] text-[0.9rem] leading-[26px] animate-travelOrbit10 origin-[50%_713%] transition-all duration-[1s]">
             {/* Icon */}
             <span className="animate-unrotate10">
               <SiDjango />
