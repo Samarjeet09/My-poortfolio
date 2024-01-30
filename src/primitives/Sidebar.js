@@ -6,7 +6,7 @@ import resume from "../assets/resume/resume.pdf";
 import toast from "react-hot-toast";
 import social from "./constants";
 
-const Sidebar = () => {
+const  Sidebar = () => {
   const resumeLink = resume;
 
   return (

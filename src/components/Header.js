@@ -34,7 +34,9 @@ const Navbar = () => {
             src={Brackets}
             alt="logo"
           />
-          <h1 className="text-xl 2xl:text-2xl ml-4 font-bold">Samarjeet Singh</h1>
+          <h1 className="text-xl 2xl:text-2xl ml-4 font-bold">
+            Samarjeet Singh
+          </h1>
         </div>
       </Link>
 
@@ -74,9 +76,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="projects" smooth={true} duration={600}>
+            {/* <Link onClick={handleClick} to="projects" smooth={true} duration={600}>
               Projects
-            </Link>
+            </Link> */}
+            <a
+              href="https://github.com/Samarjeet09"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Projects
+            </a>
           </li>
           <li>
             <Link
@@ -133,9 +142,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="cursor-pointer hover:text-white duration-200">
-            <Link to="projectss" smooth={true} duration={600}>
+            {/* <Link to="projects" smooth={true} duration={600}>
               Projects
-            </Link>
+            </Link> */}
+            <a
+              href="https://github.com/Samarjeet09"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Projects
+            </a>
           </li>
           <li className="cursor-pointer duration-200 bg-theme-blue-50 hover:bg-theme-blue-100 active:bg-theme-blue-100 hover:text-white active:text-white md:py-[4px] 2xl:py-1.5 px-2.5 rounded">
             <Link to="contact" smooth={true} duration={600}>

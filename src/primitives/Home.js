@@ -79,14 +79,26 @@ const Home = () => {
 
               {/* Buttons */}
               <div className="md:mx-0 w-full flex justify-center md:justify-start items-center mt-6 text-theme-white text-sm sm:text-base">
-                <Link to="works" smooth={true} duration={600}>
+                {/* <Link to="works" smooth={true} duration={600}>
                   <button className="w-28 sm:w-32 2xl:w-32 h-12 flex justify-center items-center rounded bg-transparent mr-4 md:mr-7 border-2 hover:text-white active:text-white hover:bg-theme-blue-50 active:bg-theme-blue-50 hover:border-theme-blue-50 active:border-theme-blue-50 duration-200 group font-medium">
                     {homeSection.buttons.work}
                     <span className="group-hover:rotate-90 group-active:rotate-90 duration-300">
                       <HiArrowNarrowRight className="ml-1" />
                     </span>
                   </button>
-                </Link>
+                </Link> */}
+                <a
+                  href="https://github.com/Samarjeet09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="w-28 sm:w-32 2xl:w-32 h-12 flex justify-center items-center rounded bg-transparent mr-4 md:mr-7 border-2 hover:text-white active:text-white hover:bg-theme-blue-50 active:bg-theme-blue-50 hover:border-theme-blue-50 active:border-theme-blue-50 duration-200 group font-medium">
+                    {homeSection.buttons.work}
+                    <span className="group-hover:rotate-90 group-active:rotate-90 duration-300">
+                      <HiArrowNarrowRight className="ml-1" />
+                    </span>
+                  </button>
+                </a>
                 <Link to="contact" smooth={true} duration={600}>
                   <button className="w-24 2xl:w-28 h-12 flex justify-center items-center rounded bg-theme-blue-50 hover:bg-theme-blue-100 active:bg-theme-blue-100 hover:text-white active:text-white duration-200 font-medium">
                     {homeSection.buttons.hire}
