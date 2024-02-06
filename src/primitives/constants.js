@@ -3,7 +3,7 @@ const social = {
   github: "https://github.com/Samarjeet09",
   email: "mailto:singhsamarjeet09@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1JXQBVJ0hzB7ZWhxaM-ZdTWXDDadmPpvr/view?usp=drive_link",
+    "https://drive.google.com/file/d/1H2KIkSsXX7_yJyUE6-C-JRzo92Sfih3-/view?usp=sharing",
 };
 
 export default social;
