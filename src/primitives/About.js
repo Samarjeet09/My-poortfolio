@@ -1,6 +1,6 @@
 import SolarSystem from "./SolarSystem";
 import content from "./content";
-console.log(content)
+// console.log(content)
 const aboutSection = content.aboutSection
 const About = () => {
   return (

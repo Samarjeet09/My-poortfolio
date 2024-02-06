@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFilePdf,FaKaggle } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FcDocument } from "react-icons/fc";
@@ -31,12 +31,20 @@ const  Sidebar = () => {
           GitHub <FaGithub size={30} />
         </a>
       </li>
+      <li className="flex justify-between items-between w-40 h-14 ml-[-100px] hover:ml-0 duration-300 bg-[#74C0FC]">
+        <a
+          className="flex justify-around items-center w-full"
+          href={social.email}
+        >
+          Kaggle <FaKaggle className="ml-4" size={29} color="#FFFFFF" />
+        </a>
+      </li>
       <li className="flex justify-between items-between w-40 h-14 ml-[-100px] hover:ml-0 duration-300 bg-[#e22211]">
         <a
           className="flex justify-around items-center w-full"
           href={social.email}
         >
-          Email <HiOutlineMail className="ml-4" size={30} />
+          Email <HiOutlineMail className="ml-4" size={30}  />
         </a>
       </li>
       <li className="flex justify-between items-between w-40 h-14 ml-[-100px] hover:ml-0 duration-300 bg-[#4E535E]">
@@ -44,7 +52,7 @@ const  Sidebar = () => {
           className="flex justify-around items-center w-full"
           href={social.resume}
         >
-          Resume <FaFilePdf className="ml-4" size={30} />
+          Resume <FaFilePdf className="ml-4" size={29} />
         </a>
       </li>
     </ul>
